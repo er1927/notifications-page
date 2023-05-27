@@ -20,7 +20,7 @@
       color: hsl(228, 45%, 44%); 
     }
     body {
-      background-color: rgb(221, 221, 221);
+      background-color: rgb(255, 255, 255);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -43,13 +43,18 @@
       padding: .3em .5em;
     }
     .notification {
-      background-color: rgb(181, 181, 181);
+      background-color: rgb(229, 229, 229);
       padding:1em;
       margin: 1em;
       border-radius: 5px;
+      display: flex;
+      flex-direction: column;
     }
     .username {
       font-weight: bold;
+    }
+    .how-long-ago {
+      color:gray;
     }
     footer {
       display: flex;
@@ -67,33 +72,33 @@
   <div class="notification-list">
   <div class="notification">
     <span class="username">Mark Webber</span> reacted to your recent post My first tournament today!
-  1m ago
+  <span class="how-long-ago">1m ago</span> 
   </div>
   <div class="notification">
     <span class="username">Angela Gray</span> followed you
-  5m ago
+    <span class="how-long-ago">5m ago</span>
   </div>
   <div class="notification">
     <span class="username">Jacob Thompson</span> has joined your group Chess Club
-  1 day ago
+    <span class="how-long-ago">1 day ago</span>
   </div>
   <div class="notification">
     <span class="username">Rizky Hasanuddin</span> sent you a private message
-  5 days ago
+    <span class="how-long-ago">5 days ago</span>
   Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
   I'm already having lots of fun and improving my game.
   </div>
   <div class="notification">
     <span class="username">Kimberly Smith</span> commented on your picture
-  1 week ago
+    <span class="how-long-ago">1 week ago</span>
   </div>
   <div class="notification">
     <span class="username">Nathan Peterson</span> reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
+    <span class="how-long-ago">2 weeks ago</span>
   </div>
   <div class="notification">
     <span class="username">Anna Kim</span> left the group Chess Club
-  2 weeks ago
+    <span class="how-long-ago">2 weeks ago</span>
   </div>
 </div>  
 </div>
